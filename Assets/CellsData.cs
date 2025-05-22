@@ -1,9 +1,12 @@
 ﻿using System;
+using UnityEngine;
 using UnityEngine.Tilemaps;
 
+[CreateAssetMenu(fileName = "CellsData", menuName = "ScriptableObjects/CellsData", order = 1)]
 [Serializable]
-public class CellsData
+public class CellsData: ScriptableObject
 {
     public Tile tile;
-    public int cellsId;
+    public GameObject prefab;
+    public Sprite menuSprite;
 }

@@ -5,19 +5,21 @@ public class Builder : MonoBehaviour
 {
     public static Builder Instance { get; private set; }
 
-    public CellsData dataCellsForPlace;
-    public TileManager tileManager;
+    public CellsData cellForPlaceData;
 
-
+    public event EventHandler<OnClickArgs> OnClick;
+    public class OnClickArgs : EventArgs
+    {
+        public Vector3 worldMousePosition;
+    }
 
     public event EventHandler<OnBuildCellArgs> OnBuildCell;
     public class OnBuildCellArgs: EventArgs
     {
-        public CellsData dataCellsForPlace;
-        public Vector3 position;
+        public CellsData cellsData;
+        public Vector3Int gridPosition;
+        public Vector3 worldPosition;
     }
-
-
 
     private void Awake()
     {
@@ -25,25 +27,25 @@ public class Builder : MonoBehaviour
             Instance = this;
     }
 
-
     public void UpdateCellForPlace(CellsData cellsData)
     {
-        dataCellsForPlace = cellsData;
+        cellForPlaceData = cellsData;
     }
 
-
-    public void BuildByPosition(Vector3 worldPosition)
+    public void BuildByPosition(Vector3Int gridPosition, Vector3 worldPosition)
     {
-        var gridPosition = tileManager.tilemap.WorldToCell(worldPosition);
-        gridPosition.z = 0;
-        if (tileManager.tilemap.HasTile(gridPosition))
-        {
-            tileManager.SetTile(dataCellsForPlace.tile, gridPosition);
-            OnBuildCell.Invoke(this, new OnBuildCellArgs 
-            { 
-                dataCellsForPlace = dataCellsForPlace, 
-                position = tileManager.tilemap.CellToWorld(gridPosition)
-            });
-        }
+        if (cellForPlaceData == null) return;
+
+        OnBuildCell.Invoke(this, new OnBuildCellArgs 
+        { 
+            cellsData = cellForPlaceData, 
+            gridPosition = gridPosition, 
+            worldPosition = worldPosition
+        });
+    }
+
+    public void ClickOnBuilder(Vector3 worldMousePosition)
+    {
+        OnClick.Invoke(this, new OnClickArgs { worldMousePosition = worldMousePosition });
     }
 }

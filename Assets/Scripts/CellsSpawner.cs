@@ -14,16 +14,16 @@ public class CellsSpawner : MonoBehaviour
 
     private void Builder_OnBuildCell(object sender, Builder.OnBuildCellArgs e)
     {
-        SpawnCell(e.dataCellsForPlace.cellsId, e.position);
+        SpawnCell(e.cellsData.prefab, e.worldPosition);
     }
 
-    public void SpawnCell(int idCells, Vector3 position)
+    public void SpawnCell(GameObject prefab, Vector3 position)
     {
         //if(prefabsDictionary.TryGetValue(idCells, out var prefab))
         //{
         //    Instantiate(prefab, position, Quaternion.identity, parent);
         //}
-        Instantiate(testPrefab, position, Quaternion.identity, parent);
+        Instantiate(prefab, position, Quaternion.identity, parent);
 
         
     }

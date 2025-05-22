@@ -210,8 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ad802dc7315bf49ba1fce733c469d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    tile: {fileID: 11400000, guid: fac5fd2fdc37209468e73f062bf223c1, type: 2}
+  data: {fileID: 0}
+  textMesh: {fileID: 1099978465287836836}
+  image: {fileID: 2883034574198976645}
 --- !u!1 &5297227760002202265
 GameObject:
   m_ObjectHideFlags: 0

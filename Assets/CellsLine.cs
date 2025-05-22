@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,6 +6,9 @@ using UnityEngine.UI;
 public class CellsLine : MonoBehaviour
 {
     [SerializeField] private CellsData data;
+    [SerializeField] private TextMeshProUGUI textMesh;
+    [SerializeField] private Image image;
+
     private Button button;
 
     public void Start()
@@ -17,6 +21,28 @@ public class CellsLine : MonoBehaviour
                 Builder.Instance.UpdateCellForPlace(data);
             });
         }
+    }
 
+
+    public void SetCellData(CellsData newData)
+    {
+        data = newData;
+        UpdateLine();
+    }
+
+
+    public void UpdateLine()
+    {
+        image.sprite = data.menuSprite;
+        textMesh.text = data.name;
+    }
+
+
+    public void OnDestroy()
+    {
+        if (button != null)
+        {
+            button.onClick.RemoveAllListeners();
+        }
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class TileManagerInput : MonoBehaviour
+public class BuilderInput : MonoBehaviour
 {
     private GameInput gameInput;
 
@@ -29,13 +29,15 @@ public class TileManagerInput : MonoBehaviour
         var screenMousePosition = gameInput.BuildingMode.MousePosition.ReadValue<Vector2>();
         var worldMousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
 
-        Builder.Instance.BuildByPosition(worldMousePosition);
+        Builder.Instance.ClickOnBuilder(worldMousePosition);
     }
+
 
     public void CalculateGridPosition()
     {
 
     }
+
 
     private void OnDisable()
     {
