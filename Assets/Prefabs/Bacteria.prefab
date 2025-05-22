@@ -9,11 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4421868123155762904}
-  - component: {fileID: 5396224473822190509}
   - component: {fileID: 7641346922419205722}
   - component: {fileID: 1831677293714479308}
+  - component: {fileID: 5396224473822190509}
   - component: {fileID: 4885399714926315478}
   - component: {fileID: 1443039472433260354}
+  - component: {fileID: 8694161033339196691}
+  - component: {fileID: 1368535641029866881}
   m_Layer: 8
   m_Name: Bacteria
   m_TagString: Untagged
@@ -37,22 +39,6 @@ Transform:
   - {fileID: 8096442830910141254}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5396224473822190509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552933517060053265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
-  path: []
-  index: 0
-  thresholdDistance: 0.1
 --- !u!50 &7641346922419205722
 Rigidbody2D:
   serializedVersion: 5
@@ -116,6 +102,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.05, y: 0.01}
   m_Radius: 0.14
+--- !u!114 &5396224473822190509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552933517060053265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 0}
+  path: []
+  index: 0
+  thresholdDistance: 0.1
 --- !u!114 &4885399714926315478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +143,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba6898d02034ee14bb9c0e2da13615b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &8694161033339196691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552933517060053265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c3c6c9d0b4d23498c78d58df8576b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!114 &1368535641029866881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552933517060053265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f622ae3a1b38849ac340f6f349c010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &4045742973715790536
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,8 +245,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1148370575
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 24814557, guid: 6b191ab79ffd200459ee3f60005994d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

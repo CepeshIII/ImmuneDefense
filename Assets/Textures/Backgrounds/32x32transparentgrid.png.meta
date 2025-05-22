@@ -1,0 +1,2655 @@
+fileFormatVersion: 2
+guid: 11a7d15f677ba944ca21478a61249a13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5498985275366273245
+    second: 32x32transparentgrid_0
+  - first:
+      213: -8819312649221784258
+    second: 32x32transparentgrid_1
+  - first:
+      213: -8144483023464913607
+    second: 32x32transparentgrid_2
+  - first:
+      213: 1292247323519289431
+    second: 32x32transparentgrid_3
+  - first:
+      213: 1945097841445103487
+    second: 32x32transparentgrid_4
+  - first:
+      213: 3732184322673905115
+    second: 32x32transparentgrid_5
+  - first:
+      213: -4278873355231658387
+    second: 32x32transparentgrid_6
+  - first:
+      213: 4354941735621941192
+    second: 32x32transparentgrid_7
+  - first:
+      213: 861922789487472473
+    second: 32x32transparentgrid_8
+  - first:
+      213: 6078867241080997413
+    second: 32x32transparentgrid_9
+  - first:
+      213: -1427943868065778947
+    second: 32x32transparentgrid_10
+  - first:
+      213: 3791547687909043994
+    second: 32x32transparentgrid_11
+  - first:
+      213: 789526770414500649
+    second: 32x32transparentgrid_12
+  - first:
+      213: 5705176365566012485
+    second: 32x32transparentgrid_13
+  - first:
+      213: -5824831987589537902
+    second: 32x32transparentgrid_14
+  - first:
+      213: -7437268487137189086
+    second: 32x32transparentgrid_15
+  - first:
+      213: 2231634412812087715
+    second: 32x32transparentgrid_16
+  - first:
+      213: 9188832386018151194
+    second: 32x32transparentgrid_17
+  - first:
+      213: 7967588766742759035
+    second: 32x32transparentgrid_18
+  - first:
+      213: -1216827603268516448
+    second: 32x32transparentgrid_19
+  - first:
+      213: 1828978637382019684
+    second: 32x32transparentgrid_20
+  - first:
+      213: -8834786833169976800
+    second: 32x32transparentgrid_21
+  - first:
+      213: -6463528981610687605
+    second: 32x32transparentgrid_22
+  - first:
+      213: -1827998618702261529
+    second: 32x32transparentgrid_23
+  - first:
+      213: -1860040430531831344
+    second: 32x32transparentgrid_24
+  - first:
+      213: 2768907411323444760
+    second: 32x32transparentgrid_25
+  - first:
+      213: -3297100235116029388
+    second: 32x32transparentgrid_26
+  - first:
+      213: -1278496860126453134
+    second: 32x32transparentgrid_27
+  - first:
+      213: -1143105621826633243
+    second: 32x32transparentgrid_28
+  - first:
+      213: -8965666138535764653
+    second: 32x32transparentgrid_29
+  - first:
+      213: 3284443350556420811
+    second: 32x32transparentgrid_30
+  - first:
+      213: -506355013955452237
+    second: 32x32transparentgrid_31
+  - first:
+      213: 406730938046110926
+    second: 32x32transparentgrid_32
+  - first:
+      213: 269694289048731420
+    second: 32x32transparentgrid_33
+  - first:
+      213: -1710159826681818025
+    second: 32x32transparentgrid_34
+  - first:
+      213: -4546088778656627306
+    second: 32x32transparentgrid_35
+  - first:
+      213: -5565318210755897030
+    second: 32x32transparentgrid_36
+  - first:
+      213: -7041201579630230655
+    second: 32x32transparentgrid_37
+  - first:
+      213: 6370066048637859001
+    second: 32x32transparentgrid_38
+  - first:
+      213: 9202740252126114807
+    second: 32x32transparentgrid_39
+  - first:
+      213: -3818993068965823745
+    second: 32x32transparentgrid_40
+  - first:
+      213: -7617205513418467771
+    second: 32x32transparentgrid_41
+  - first:
+      213: 4643773808826262113
+    second: 32x32transparentgrid_42
+  - first:
+      213: -2126025102323696895
+    second: 32x32transparentgrid_43
+  - first:
+      213: -6256349136977369747
+    second: 32x32transparentgrid_44
+  - first:
+      213: 7289125819493313493
+    second: 32x32transparentgrid_45
+  - first:
+      213: -8869685340161253958
+    second: 32x32transparentgrid_46
+  - first:
+      213: -1000265964315153890
+    second: 32x32transparentgrid_47
+  - first:
+      213: 3218636202121770074
+    second: 32x32transparentgrid_48
+  - first:
+      213: 7683225794565965588
+    second: 32x32transparentgrid_49
+  - first:
+      213: -2398800783367879143
+    second: 32x32transparentgrid_50
+  - first:
+      213: 9106147871966335983
+    second: 32x32transparentgrid_51
+  - first:
+      213: 2753794975305561821
+    second: 32x32transparentgrid_52
+  - first:
+      213: 9069452703474867151
+    second: 32x32transparentgrid_53
+  - first:
+      213: -3564461036560561384
+    second: 32x32transparentgrid_54
+  - first:
+      213: -8148818044005838355
+    second: 32x32transparentgrid_55
+  - first:
+      213: 5699543229107805478
+    second: 32x32transparentgrid_56
+  - first:
+      213: -7277076685399070346
+    second: 32x32transparentgrid_57
+  - first:
+      213: -8084885268554521048
+    second: 32x32transparentgrid_58
+  - first:
+      213: 6737331572798558763
+    second: 32x32transparentgrid_59
+  - first:
+      213: -4703259999144074974
+    second: 32x32transparentgrid_60
+  - first:
+      213: 8114397789931242508
+    second: 32x32transparentgrid_61
+  - first:
+      213: 7768412203601613482
+    second: 32x32transparentgrid_62
+  - first:
+      213: -7353997456699492920
+    second: 32x32transparentgrid_63
+  - first:
+      213: 8149713221326836883
+    second: 32x32transparentgrid_64
+  - first:
+      213: 3476522279598133969
+    second: 32x32transparentgrid_65
+  - first:
+      213: -7530065142770149339
+    second: 32x32transparentgrid_66
+  - first:
+      213: -1136511159413638412
+    second: 32x32transparentgrid_67
+  - first:
+      213: 4977525244003410385
+    second: 32x32transparentgrid_68
+  - first:
+      213: -2868338522585747338
+    second: 32x32transparentgrid_69
+  - first:
+      213: 8348512916460878170
+    second: 32x32transparentgrid_70
+  - first:
+      213: -8049506980479083296
+    second: 32x32transparentgrid_71
+  - first:
+      213: -6657020342700583821
+    second: 32x32transparentgrid_72
+  - first:
+      213: -1979350600059476498
+    second: 32x32transparentgrid_73
+  - first:
+      213: -1649025048289837934
+    second: 32x32transparentgrid_74
+  - first:
+      213: 1300312832295240445
+    second: 32x32transparentgrid_75
+  - first:
+      213: -6678560236053233630
+    second: 32x32transparentgrid_76
+  - first:
+      213: 4473224837597061214
+    second: 32x32transparentgrid_77
+  - first:
+      213: 328129056126578842
+    second: 32x32transparentgrid_78
+  - first:
+      213: -1573889841641799511
+    second: 32x32transparentgrid_79
+  - first:
+      213: 7945694082927547510
+    second: 32x32transparentgrid_80
+  - first:
+      213: -8009797461853000871
+    second: 32x32transparentgrid_81
+  - first:
+      213: -1477978782574906534
+    second: 32x32transparentgrid_82
+  - first:
+      213: 7866767189340393830
+    second: 32x32transparentgrid_83
+  - first:
+      213: -5957469712046916366
+    second: 32x32transparentgrid_84
+  - first:
+      213: 2014264376659500115
+    second: 32x32transparentgrid_85
+  - first:
+      213: 5638151064554164077
+    second: 32x32transparentgrid_86
+  - first:
+      213: 7602813439628997271
+    second: 32x32transparentgrid_87
+  - first:
+      213: -3273177452562373187
+    second: 32x32transparentgrid_88
+  - first:
+      213: 647023704387634408
+    second: 32x32transparentgrid_89
+  - first:
+      213: 6225182704904091549
+    second: 32x32transparentgrid_90
+  - first:
+      213: 7097730169523899661
+    second: 32x32transparentgrid_91
+  - first:
+      213: 2695398202671245832
+    second: 32x32transparentgrid_92
+  - first:
+      213: -4854711776524041215
+    second: 32x32transparentgrid_93
+  - first:
+      213: 5383587185609636789
+    second: 32x32transparentgrid_94
+  - first:
+      213: -5629987193672760332
+    second: 32x32transparentgrid_95
+  - first:
+      213: 5312966696203361009
+    second: 32x32transparentgrid_96
+  - first:
+      213: 6188398124056099532
+    second: 32x32transparentgrid_97
+  - first:
+      213: -1057934643946510139
+    second: 32x32transparentgrid_98
+  - first:
+      213: -6594901752269892418
+    second: 32x32transparentgrid_99
+  - first:
+      213: 7942984273998569696
+    second: 32x32transparentgrid_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 32x32transparentgrid_0
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd07f4b19f1505c40800000000000000
+      internalID: 5498985275366273245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_1
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3db60c4fd18b9580800000000000000
+      internalID: -8819312649221784258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_2
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 6089
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ac2b67dbf8fe80800000000000000
+      internalID: -8144483023464913607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 6092
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7580158181cfee110800000000000000
+      internalID: 1292247323519289431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6089
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77e6b46e206efa10800000000000000
+      internalID: 1945097841445103487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_5
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 6092
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd82451ed16bc330800000000000000
+      internalID: 3732184322673905115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_6
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 6090
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e78869a536e94c0800000000000000
+      internalID: -4278873355231658387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_7
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 6092
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7d4416f6cdf6c30800000000000000
+      internalID: 4354941735621941192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_8
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 6092
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fe63bd53a26fb00800000000000000
+      internalID: 861922789487472473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_9
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526446d6c897c5450800000000000000
+      internalID: 6078867241080997413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_10
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 6092
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2fdb81e9cee2ce0800000000000000
+      internalID: -1427943868065778947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_11
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fa5ce98884e9430800000000000000
+      internalID: 3791547687909043994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_12
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bb7332a66f4fa00800000000000000
+      internalID: 789526770414500649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_13
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c248a5dabdc2f40800000000000000
+      internalID: 5705176365566012485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_14
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f94672b2a0a2fa0800000000000000
+      internalID: -5824831987589537902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_15
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2232bfc17b389c890800000000000000
+      internalID: -7437268487137189086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_16
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 6089
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1b33cbcab58fe10800000000000000
+      internalID: 2231634412812087715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_17
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b873dde5a458f70800000000000000
+      internalID: 9188832386018151194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_18
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 6092
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76481ee4cf829e60800000000000000
+      internalID: 7967588766742759035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_19
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a54a4aedb5fc1fe0800000000000000
+      internalID: -1216827603268516448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_20
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 6089
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46aeeee5166d16910800000000000000
+      internalID: 1828978637382019684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_21
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022fa961f28846580800000000000000
+      internalID: -8834786833169976800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_22
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 6092
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8317afe2aeec46a0800000000000000
+      internalID: -6463528981610687605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_23
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2d85201f4a1a6e0800000000000000
+      internalID: -1827998618702261529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_24
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 6090
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d91946551fcf26e0800000000000000
+      internalID: -1860040430531831344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_25
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e51ebce922d6620800000000000000
+      internalID: 2768907411323444760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_26
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 6092
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a5d011ec85e32d0800000000000000
+      internalID: -3297100235116029388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_27
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272e5b521edd14ee0800000000000000
+      internalID: -1278496860126453134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_28
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 6092
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1854e4e7fd220f0800000000000000
+      internalID: -1143105621826633243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_29
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 6092
+        width: 94
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dd3dd262e839380800000000000000
+      internalID: -8965666138535764653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_30
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca2fca53dfa49d20800000000000000
+      internalID: 3284443350556420811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_31
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b282fe2cc019f8f0800000000000000
+      internalID: -506355013955452237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_32
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc566912aff4a500800000000000000
+      internalID: 406730938046110926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_33
+      rect:
+        serializedVersion: 2
+        x: 4149
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f73b8e6852eb300800000000000000
+      internalID: 269694289048731420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_34
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7549c7dc2ba4448e0800000000000000
+      internalID: -1710159826681818025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_35
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 6089
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69548ce875c09e0c0800000000000000
+      internalID: -4546088778656627306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_36
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 6092
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39d1e9d29404c2b0800000000000000
+      internalID: -5565318210755897030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_37
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183883e1870a84e90800000000000000
+      internalID: -7041201579630230655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_38
+      rect:
+        serializedVersion: 2
+        x: 4702
+        y: 6089
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4f5d83255076850800000000000000
+      internalID: 6370066048637859001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_39
+      rect:
+        serializedVersion: 2
+        x: 4835
+        y: 6092
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f37a284083b6bf70800000000000000
+      internalID: 9202740252126114807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_40
+      rect:
+        serializedVersion: 2
+        x: 5012
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffafc94a906300bc0800000000000000
+      internalID: -3818993068965823745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_41
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 6090
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5469b8771ff3a4690800000000000000
+      internalID: -7617205513418467771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_42
+      rect:
+        serializedVersion: 2
+        x: 5188
+        y: 6092
+        width: 101
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1622a54ecaff17040800000000000000
+      internalID: 4643773808826262113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_43
+      rect:
+        serializedVersion: 2
+        x: 5371
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bbe600f67de72e0800000000000000
+      internalID: -2126025102323696895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_44
+      rect:
+        serializedVersion: 2
+        x: 5420
+        y: 6092
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6564a38b9bfc29a0800000000000000
+      internalID: -6256349136977369747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_45
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 6089
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbe60a305d282560800000000000000
+      internalID: 7289125819493313493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_46
+      rect:
+        serializedVersion: 2
+        x: 5745
+        y: 6089
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdd23e3d2c88e480800000000000000
+      internalID: -8869685340161253958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_47
+      rect:
+        serializedVersion: 2
+        x: 5794
+        y: 6090
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ae414b7675e12f0800000000000000
+      internalID: -1000265964315153890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_48
+      rect:
+        serializedVersion: 2
+        x: 5930
+        y: 6089
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a543ea0a294eaac20800000000000000
+      internalID: 3218636202121770074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_49
+      rect:
+        serializedVersion: 2
+        x: 5966
+        y: 6092
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4170936172d40aa60800000000000000
+      internalID: 7683225794565965588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5919
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916cd6c956fb5bed0800000000000000
+      internalID: -2398800783367879143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_51
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 235
+        width: 5829
+        height: 5830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe39bbc3e398f5e70800000000000000
+      internalID: 9106147871966335983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_52
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5738
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6f75790f1773620800000000000000
+      internalID: 2753794975305561821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5552
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb53d98e2b2ddd70800000000000000
+      internalID: 9069452703474867151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5371
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b4614929d788ec0800000000000000
+      internalID: -3564461036560561384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5184
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de11dbbc92599ee80800000000000000
+      internalID: -8148818044005838355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 5005
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d14f09e58d81f40800000000000000
+      internalID: 5699543229107805478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_57
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 4819
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679e28b6f41a20b90800000000000000
+      internalID: -7277076685399070346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_58
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4638
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826e40e0fa7bccf80800000000000000
+      internalID: -8084885268554521048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 4455
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b229eaa9e5fcf7d50800000000000000
+      internalID: 6737331572798558763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4269
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221a6b023f9aabeb0800000000000000
+      internalID: -4703259999144074974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 4270
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04011b4cc12c9070800000000000000
+      internalID: 8114397789931242508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4086
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2db788db1fecb60800000000000000
+      internalID: 7768412203601613482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 4086
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5fc4ab64a51f990800000000000000
+      internalID: -7353997456699492920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_64
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3920
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3949d7aeef8991170800000000000000
+      internalID: 8149713221326836883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_65
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3921
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d29d2908961f3030800000000000000
+      internalID: 3476522279598133969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_66
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3736
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52852ad06a5df7790800000000000000
+      internalID: -7530065142770149339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3736
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faf1eb3f1d4a30f0800000000000000
+      internalID: -1136511159413638412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_68
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3553
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1ec5d56d8b31540800000000000000
+      internalID: 4977525244003410385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3554
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67035b19f4d9138d0800000000000000
+      internalID: -2868338522585747338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_70
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3369
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a593964e340ebd370800000000000000
+      internalID: 8348512916460878170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3368
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec5483ac086a4090800000000000000
+      internalID: -8049506980479083296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3187
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37458cac4438d93a0800000000000000
+      internalID: -6657020342700583821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3188
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5af75cd1fe784e0800000000000000
+      internalID: -1979350600059476498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_74
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3003
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c76fa947c7d19e0800000000000000
+      internalID: -1649025048289837934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3003
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df207d1b1a3ab0210800000000000000
+      internalID: 1300312832295240445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_76
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2820
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2208ffe89dcf053a0800000000000000
+      internalID: -6678560236053233630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2821
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e506d652a46141e30800000000000000
+      internalID: 4473224837597061214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_78
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2637
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90b8e653afbd8400800000000000000
+      internalID: 328129056126578842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_79
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2638
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a04851278b682ae0800000000000000
+      internalID: -1573889841641799511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_80
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2455
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674d1da9ba6c44e60800000000000000
+      internalID: 7945694082927547510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_81
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2271
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b2d6b65ab77d090800000000000000
+      internalID: -8009797461853000871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_82
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2270
+        width: 33
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53fe0fb02a2d7be0800000000000000
+      internalID: -1477978782574906534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_83
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2102
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661155b241f5c2d60800000000000000
+      internalID: 7866767189340393830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_84
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2102
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc7b456cd0d25da0800000000000000
+      internalID: -5957469712046916366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_85
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1917
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c538e47ca14fb10800000000000000
+      internalID: 2014264376659500115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1915
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fcdb0658cbe3e40800000000000000
+      internalID: 5638151064554164077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1735
+        width: 99
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f6aaba8e928960800000000000000
+      internalID: 7602813439628997271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_88
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1551
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5a33de2765392d0800000000000000
+      internalID: -3273177452562373187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_89
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1548
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4484d81a0baf800800000000000000
+      internalID: 647023704387634408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_90
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1368
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97b6bb00ba446650800000000000000
+      internalID: 6225182704904091549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_91
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1184
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d8b0adbf3308260800000000000000
+      internalID: 7097730169523899661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_92
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1183
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a227e626af76520800000000000000
+      internalID: 2695398202671245832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_93
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1002
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10401615c5990acb0800000000000000
+      internalID: -4854711776524041215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_94
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 818
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb7b97950856ba40800000000000000
+      internalID: 5383587185609636789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_95
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 818
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3032fe9744ed1b0800000000000000
+      internalID: -5629987193672760332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_96
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 632
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa9ea69f037bb940800000000000000
+      internalID: 5312966696203361009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_97
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 449
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccabe096e4b91e550800000000000000
+      internalID: 6188398124056099532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_98
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 449
+        width: 33
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c82df7eb067151f0800000000000000
+      internalID: -1057934643946510139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_99
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 265
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb41a5f2cc33a74a0800000000000000
+      internalID: -6594901752269892418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32transparentgrid_100
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 267
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e23c0d162b3e60800000000000000
+      internalID: 7942984273998569696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

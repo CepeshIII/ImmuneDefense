@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MoveByPath : MonoBehaviour
@@ -19,8 +20,6 @@ public class MoveByPath : MonoBehaviour
 
     public void Update()
     {
-        if (lineRenderer == null) return;
-
         var nextPoint = GetTargetPosition();
         var direction = (nextPoint - transform.position).normalized;
 
@@ -36,20 +35,23 @@ public class MoveByPath : MonoBehaviour
 
         if (Vector3.Distance(transform.position, nextPoint) < thresholdDistance)
         {
-            index = (index + 1) % path.Length;
+            if(path.Length != 0)
+                index = (index + 1) % path.Length;
         }
     }
 
+
+    public void SetPath(Vector3[] newPath)
+    {
+        path = newPath;
+    }
 
     public Vector3 GetTargetPosition()
     {
-        if (path == null || lineRenderer.positionCount != path.Length)
-        {
-            path = new Vector3[lineRenderer.positionCount];
-        }
-        lineRenderer.GetPositions(path);
-
-        return path[index];
+        if(path.Length > index)
+            return path[index];
+        else return transform.position;
     }
+
 }
 

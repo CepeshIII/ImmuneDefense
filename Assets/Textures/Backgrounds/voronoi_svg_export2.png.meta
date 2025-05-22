@@ -1,0 +1,2405 @@
+fileFormatVersion: 2
+guid: adf57e03af2f92a4e84d3420947273ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6663075167316090244
+    second: voronoi_svg_export2_0
+  - first:
+      213: 3519467728421949297
+    second: voronoi_svg_export2_1
+  - first:
+      213: -4412207968016087366
+    second: voronoi_svg_export2_2
+  - first:
+      213: -330352748220647840
+    second: voronoi_svg_export2_3
+  - first:
+      213: 2269481890269923170
+    second: voronoi_svg_export2_4
+  - first:
+      213: 486768308484277487
+    second: voronoi_svg_export2_5
+  - first:
+      213: 1255983950344351383
+    second: voronoi_svg_export2_6
+  - first:
+      213: 2837974421752043590
+    second: voronoi_svg_export2_7
+  - first:
+      213: -179323833922487906
+    second: voronoi_svg_export2_8
+  - first:
+      213: -2860512036855893310
+    second: voronoi_svg_export2_9
+  - first:
+      213: 4699981104058076986
+    second: voronoi_svg_export2_10
+  - first:
+      213: -7801560977168292952
+    second: voronoi_svg_export2_11
+  - first:
+      213: -2301469019033596073
+    second: voronoi_svg_export2_12
+  - first:
+      213: 2373124506882695131
+    second: voronoi_svg_export2_13
+  - first:
+      213: -5963499643450788592
+    second: voronoi_svg_export2_14
+  - first:
+      213: 6630948505971291388
+    second: voronoi_svg_export2_15
+  - first:
+      213: -5757026934186743160
+    second: voronoi_svg_export2_16
+  - first:
+      213: 946681377795955794
+    second: voronoi_svg_export2_17
+  - first:
+      213: 5658048675293678909
+    second: voronoi_svg_export2_18
+  - first:
+      213: 6165339797085809357
+    second: voronoi_svg_export2_19
+  - first:
+      213: -5444900430951341201
+    second: voronoi_svg_export2_20
+  - first:
+      213: -853550051812797820
+    second: voronoi_svg_export2_21
+  - first:
+      213: 2836119129498134906
+    second: voronoi_svg_export2_22
+  - first:
+      213: 743029374618378162
+    second: voronoi_svg_export2_23
+  - first:
+      213: 5902906811600163394
+    second: voronoi_svg_export2_24
+  - first:
+      213: 8423300572636044438
+    second: voronoi_svg_export2_25
+  - first:
+      213: 3234560549947418202
+    second: voronoi_svg_export2_26
+  - first:
+      213: -255144398614174815
+    second: voronoi_svg_export2_27
+  - first:
+      213: 6924843568921280945
+    second: voronoi_svg_export2_28
+  - first:
+      213: -6776893212902897402
+    second: voronoi_svg_export2_29
+  - first:
+      213: 1642299852519839759
+    second: voronoi_svg_export2_30
+  - first:
+      213: -4540208097876116469
+    second: voronoi_svg_export2_31
+  - first:
+      213: -3768893554009713713
+    second: voronoi_svg_export2_32
+  - first:
+      213: -3089218378906051228
+    second: voronoi_svg_export2_33
+  - first:
+      213: -2616941347584887416
+    second: voronoi_svg_export2_34
+  - first:
+      213: 49986563321653178
+    second: voronoi_svg_export2_35
+  - first:
+      213: -8126251866442407799
+    second: voronoi_svg_export2_36
+  - first:
+      213: -7867987689579431264
+    second: voronoi_svg_export2_37
+  - first:
+      213: -4489580703064822434
+    second: voronoi_svg_export2_38
+  - first:
+      213: 7195036163423088689
+    second: voronoi_svg_export2_39
+  - first:
+      213: -5213391049951874087
+    second: voronoi_svg_export2_40
+  - first:
+      213: 5920631534661567229
+    second: voronoi_svg_export2_41
+  - first:
+      213: -6987972861258404255
+    second: voronoi_svg_export2_42
+  - first:
+      213: -939817636815565962
+    second: voronoi_svg_export2_43
+  - first:
+      213: -3821449731644811097
+    second: voronoi_svg_export2_44
+  - first:
+      213: -7801342105885398224
+    second: voronoi_svg_export2_45
+  - first:
+      213: 8945414729732396581
+    second: voronoi_svg_export2_46
+  - first:
+      213: 2726702259697497455
+    second: voronoi_svg_export2_47
+  - first:
+      213: 1479446153130521301
+    second: voronoi_svg_export2_48
+  - first:
+      213: 5562239312906068536
+    second: voronoi_svg_export2_49
+  - first:
+      213: -7332866021495638562
+    second: voronoi_svg_export2_50
+  - first:
+      213: -5453502902495116513
+    second: voronoi_svg_export2_51
+  - first:
+      213: 7861620003838500720
+    second: voronoi_svg_export2_52
+  - first:
+      213: 265844690010587995
+    second: voronoi_svg_export2_53
+  - first:
+      213: -7281307400103189081
+    second: voronoi_svg_export2_54
+  - first:
+      213: 3523305858805255724
+    second: voronoi_svg_export2_55
+  - first:
+      213: -1588305558235834562
+    second: voronoi_svg_export2_56
+  - first:
+      213: -2934009864807617201
+    second: voronoi_svg_export2_57
+  - first:
+      213: -6992096459740921318
+    second: voronoi_svg_export2_58
+  - first:
+      213: -2667998482602846916
+    second: voronoi_svg_export2_59
+  - first:
+      213: 1458508252356734689
+    second: voronoi_svg_export2_60
+  - first:
+      213: -5673388576246650604
+    second: voronoi_svg_export2_61
+  - first:
+      213: -4953823148184281268
+    second: voronoi_svg_export2_62
+  - first:
+      213: -6334684378029231841
+    second: voronoi_svg_export2_63
+  - first:
+      213: 3285942020312324662
+    second: voronoi_svg_export2_64
+  - first:
+      213: 7740464537978035506
+    second: voronoi_svg_export2_65
+  - first:
+      213: 1254678167395005220
+    second: voronoi_svg_export2_66
+  - first:
+      213: 7225029811698323058
+    second: voronoi_svg_export2_67
+  - first:
+      213: -191055736921817409
+    second: voronoi_svg_export2_68
+  - first:
+      213: -4095518916474291167
+    second: voronoi_svg_export2_69
+  - first:
+      213: -8300475423644362487
+    second: voronoi_svg_export2_70
+  - first:
+      213: -1434058368263304718
+    second: voronoi_svg_export2_71
+  - first:
+      213: 7368384367964408740
+    second: voronoi_svg_export2_72
+  - first:
+      213: -106891274470860335
+    second: voronoi_svg_export2_73
+  - first:
+      213: 6316667829633731409
+    second: voronoi_svg_export2_74
+  - first:
+      213: 5425716301415984544
+    second: voronoi_svg_export2_75
+  - first:
+      213: 3137986459809422093
+    second: voronoi_svg_export2_76
+  - first:
+      213: -82877678013639398
+    second: voronoi_svg_export2_77
+  - first:
+      213: -7931506195270340883
+    second: voronoi_svg_export2_78
+  - first:
+      213: -8461557341242199415
+    second: voronoi_svg_export2_79
+  - first:
+      213: 227346571086623313
+    second: voronoi_svg_export2_80
+  - first:
+      213: 8645138403696271009
+    second: voronoi_svg_export2_81
+  - first:
+      213: -2207950089016744727
+    second: voronoi_svg_export2_82
+  - first:
+      213: 4194856187927902331
+    second: voronoi_svg_export2_83
+  - first:
+      213: -7370367687664026806
+    second: voronoi_svg_export2_84
+  - first:
+      213: 5364678117158853618
+    second: voronoi_svg_export2_85
+  - first:
+      213: 6549019791117530842
+    second: voronoi_svg_export2_86
+  - first:
+      213: -6636791849976470390
+    second: voronoi_svg_export2_87
+  - first:
+      213: -2940038986002325416
+    second: voronoi_svg_export2_88
+  - first:
+      213: 1627300182836481515
+    second: voronoi_svg_export2_89
+  - first:
+      213: 3428079764919388706
+    second: voronoi_svg_export2_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: voronoi_svg_export2_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 7979
+        width: 354
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72e56410700883a0800000000000000
+      internalID: -6663075167316090244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 7284
+        width: 803
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f8a078049a7d030800000000000000
+      internalID: 3519467728421949297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_2
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 7175
+        width: 819
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6c04fda30b4c2c0800000000000000
+      internalID: -4412207968016087366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_3
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 7917
+        width: 447
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066fbbffce95a6bf0800000000000000
+      internalID: -330352748220647840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_4
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 7241
+        width: 1045
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26788b541c1de7f10800000000000000
+      internalID: 2269481890269923170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_5
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 6511
+        width: 1892
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe48f13923951c600800000000000000
+      internalID: 486768308484277487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_6
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 7304
+        width: 1193
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eedd39fb62e6110800000000000000
+      internalID: 1255983950344351383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_7
+      rect:
+        serializedVersion: 2
+        x: 4393
+        y: 7976
+        width: 677
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648dc2a43b2826720800000000000000
+      internalID: 2837974421752043590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_8
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 7617
+        width: 799
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99f9435ce9e28df0800000000000000
+      internalID: -179323833922487906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_9
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 7543
+        width: 887
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2b977457b6d48d0800000000000000
+      internalID: -2860512036855893310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_10
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 7004
+        width: 971
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f0e6e99efa93140800000000000000
+      internalID: 4699981104058076986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_11
+      rect:
+        serializedVersion: 2
+        x: 6944
+        y: 6815
+        width: 953
+        height: 1175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3a55e20a94bb390800000000000000
+      internalID: -7801560977168292952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7129
+        width: 448
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8fe2fe1a8f00e0800000000000000
+      internalID: -2301469019033596073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6096
+        width: 524
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf54886a280fe020800000000000000
+      internalID: 2373124506882695131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 6129
+        width: 915
+        height: 1204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01572f59ba46d3da0800000000000000
+      internalID: -5963499643450788592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_15
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 5975
+        width: 1059
+        height: 1343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4735ea88cd50c50800000000000000
+      internalID: 6630948505971291388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_16
+      rect:
+        serializedVersion: 2
+        x: 4338
+        y: 6781
+        width: 926
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a6171618eea10b0800000000000000
+      internalID: -5757026934186743160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_17
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 6591
+        width: 1093
+        height: 1048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c510782b9432d00800000000000000
+      internalID: 946681377795955794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_18
+      rect:
+        serializedVersion: 2
+        x: 7670
+        y: 7081
+        width: 321
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dcfb4ea4d658e40800000000000000
+      internalID: 5658048675293678909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5907
+        width: 536
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcae0ec41efaf8550800000000000000
+      internalID: 6165339797085809357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_20
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 5287
+        width: 1510
+        height: 1375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6326c708e3df64b0800000000000000
+      internalID: -5444900430951341201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_21
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 5438
+        width: 1274
+        height: 1102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4829eab00c49724f0800000000000000
+      internalID: -853550051812797820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_22
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 6182
+        width: 1034
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a792d66625beb5720800000000000000
+      internalID: 2836119129498134906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_23
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 5409
+        width: 1024
+        height: 1362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf1fcb8745cf4a00800000000000000
+      internalID: 743029374618378162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_24
+      rect:
+        serializedVersion: 2
+        x: 5450
+        y: 5971
+        width: 856
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24259af58765be150800000000000000
+      internalID: 5902906811600163394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_25
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 5930
+        width: 1190
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cd0540e3395e470800000000000000
+      internalID: 8423300572636044438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_26
+      rect:
+        serializedVersion: 2
+        x: 6504
+        y: 4878
+        width: 1184
+        height: 1347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56ab18cea773ec20800000000000000
+      internalID: 3234560549947418202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_27
+      rect:
+        serializedVersion: 2
+        x: 7226
+        y: 5986
+        width: 765
+        height: 1125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3eb22758b857cf0800000000000000
+      internalID: -255144398614174815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4829
+        width: 775
+        height: 1095
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b183ba598cf91060800000000000000
+      internalID: 6924843568921280945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_29
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 5123
+        width: 1347
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609ca244783a3f1a0800000000000000
+      internalID: -6776893212902897402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_30
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 4684
+        width: 1496
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f081f1cb30f9ac610800000000000000
+      internalID: 1642299852519839759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_31
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 5066
+        width: 1368
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cfdbf3ac0fdf0c0800000000000000
+      internalID: -4540208097876116469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_32
+      rect:
+        serializedVersion: 2
+        x: 7335
+        y: 4904
+        width: 656
+        height: 986
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3ddf4f74332bbc0800000000000000
+      internalID: -3768893554009713713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_33
+      rect:
+        serializedVersion: 2
+        x: 7690
+        y: 5858
+        width: 301
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d52b37044e025d0800000000000000
+      internalID: -3089218378906051228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4451
+        width: 785
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885bb23a5b1ceabd0800000000000000
+      internalID: -2616941347584887416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3727
+        width: 888
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab76456b38691b000800000000000000
+      internalID: 49986563321653178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_36
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 4146
+        width: 948
+        height: 1259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98068517bf0c93f80800000000000000
+      internalID: -8126251866442407799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_37
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 4144
+        width: 1040
+        height: 1412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aab879f1ea4fc290800000000000000
+      internalID: -7867987689579431264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_38
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 3654
+        width: 1264
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d6f5b232ec1b1c0800000000000000
+      internalID: -4489580703064822434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_39
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 4144
+        width: 1358
+        height: 1374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1303cea0547e9d360800000000000000
+      internalID: 7195036163423088689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_40
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 3376
+        width: 1400
+        height: 1320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3fa68367056a7b0800000000000000
+      internalID: -5213391049951874087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_41
+      rect:
+        serializedVersion: 2
+        x: 4924
+        y: 3743
+        width: 1321
+        height: 1360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df28a7d030f4a2250800000000000000
+      internalID: 5920631534661567229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_42
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 4461
+        width: 957
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e6f90e4bbb50f90800000000000000
+      internalID: -6987972861258404255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_43
+      rect:
+        serializedVersion: 2
+        x: 6257
+        y: 3966
+        width: 1208
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b06f3b6d815f2f0800000000000000
+      internalID: -939817636815565962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_44
+      rect:
+        serializedVersion: 2
+        x: 7287
+        y: 4428
+        width: 704
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a89c4a47bb77fac0800000000000000
+      internalID: -3821449731644811097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2267
+        width: 1666
+        height: 1887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b276f10b01cb390800000000000000
+      internalID: -7801342105885398224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_46
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 3179
+        width: 975
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5261f364d4f742c70800000000000000
+      internalID: 8945414729732396581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_47
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2470
+        width: 920
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65368d224137d520800000000000000
+      internalID: 2726702259697497455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_48
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 2642
+        width: 1185
+        height: 1236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2b9a5107c088410800000000000000
+      internalID: 1479446153130521301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_49
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 2636
+        width: 1218
+        height: 1316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832aa716f2b013d40800000000000000
+      internalID: 5562239312906068536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_50
+      rect:
+        serializedVersion: 2
+        x: 5666
+        y: 2609
+        width: 1049
+        height: 1141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed57833643d6c3a90800000000000000
+      internalID: -7332866021495638562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_51
+      rect:
+        serializedVersion: 2
+        x: 5979
+        y: 3265
+        width: 1288
+        height: 859
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13873b01044154b0800000000000000
+      internalID: -5453502902495116513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_52
+      rect:
+        serializedVersion: 2
+        x: 6705
+        y: 2613
+        width: 932
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f16e7adb51a1d60800000000000000
+      internalID: 7861620003838500720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_53
+      rect:
+        serializedVersion: 2
+        x: 7275
+        y: 3386
+        width: 716
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b534189465870b300800000000000000
+      internalID: 265844690010587995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_54
+      rect:
+        serializedVersion: 2
+        x: 7637
+        y: 2363
+        width: 354
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a52d646f7993fa90800000000000000
+      internalID: -7281307400103189081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1561
+        width: 274
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ec325e20c45e030800000000000000
+      internalID: 3523305858805255724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1287
+        width: 1451
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37139e828435f9e0800000000000000
+      internalID: -1588305558235834562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_57
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1683
+        width: 1441
+        height: 1549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d66a0b29d4847d0800000000000000
+      internalID: -2934009864807617201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_58
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1109
+        width: 1453
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1240e9c05517fe90800000000000000
+      internalID: -6992096459740921318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_59
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 1622
+        width: 1331
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c351d27048d59fad0800000000000000
+      internalID: -2667998482602846916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_60
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 1832
+        width: 1149
+        height: 1155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eee2bb2789ad3410800000000000000
+      internalID: 1458508252356734689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_61
+      rect:
+        serializedVersion: 2
+        x: 4307
+        y: 845
+        width: 1075
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4192f0816231441b0800000000000000
+      internalID: -5673388576246650604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_62
+      rect:
+        serializedVersion: 2
+        x: 5227
+        y: 1679
+        width: 1007
+        height: 1081
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f5e5cd71c704bb0800000000000000
+      internalID: -4953823148184281268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_63
+      rect:
+        serializedVersion: 2
+        x: 6241
+        y: 1503
+        width: 750
+        height: 1227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11f95bee1ea618a0800000000000000
+      internalID: -6334684378029231841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_64
+      rect:
+        serializedVersion: 2
+        x: 6942
+        y: 1571
+        width: 923
+        height: 1054
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ade399bd20a9d20800000000000000
+      internalID: 3285942020312324662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_65
+      rect:
+        serializedVersion: 2
+        x: 7375
+        y: 1505
+        width: 616
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d50be8c77ab6b60800000000000000
+      internalID: 7740464537978035506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 655
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423740b4523896110800000000000000
+      internalID: 1254678167395005220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 463
+        width: 654
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ec2e97556744460800000000000000
+      internalID: 7225029811698323058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_68
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 41
+        width: 974
+        height: 1274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe797cc1db395df0800000000000000
+      internalID: -191055736921817409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_69
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 1036
+        height: 1687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c38a49e3bc927c0800000000000000
+      internalID: -4095518916474291167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_70
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 118
+        width: 1347
+        height: 1081
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90951da7499cecc80800000000000000
+      internalID: -8300475423644362487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_71
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 461
+        width: 923
+        height: 1183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f94d741383391ce0800000000000000
+      internalID: -1434058368263304718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_72
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 15
+        width: 916
+        height: 1129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab4f051b82c14660800000000000000
+      internalID: 7368384367964408740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_73
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 712
+        width: 1159
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d95393c3fe348ef0800000000000000
+      internalID: -106891274470860335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_74
+      rect:
+        serializedVersion: 2
+        x: 6425
+        y: 171
+        width: 1312
+        height: 1420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc4758cef49a750800000000000000
+      internalID: 6316667829633731409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_75
+      rect:
+        serializedVersion: 2
+        x: 7395
+        y: 966
+        width: 596
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad22fdba340c4b40800000000000000
+      internalID: 5425716301415984544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_76
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 0
+        width: 1683
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b1de63f0e5c8b20800000000000000
+      internalID: 3137986459809422093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_77
+      rect:
+        serializedVersion: 2
+        x: 5573
+        y: 0
+        width: 1191
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a151032e03f89def0800000000000000
+      internalID: -82877678013639398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_78
+      rect:
+        serializedVersion: 2
+        x: 7637
+        y: 10
+        width: 354
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deee9196321ade190800000000000000
+      internalID: -7931506195270340883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_79
+      rect:
+        serializedVersion: 2
+        x: 7677
+        y: 503
+        width: 314
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982f8aced62829a80800000000000000
+      internalID: -8461557341242199415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 456
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152758a7082b72300800000000000000
+      internalID: 227346571086623313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_81
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 0
+        width: 946
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae57620393b9f770800000000000000
+      internalID: 8645138403696271009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_82
+      rect:
+        serializedVersion: 2
+        x: 6538
+        y: 0
+        width: 431
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e46d5e9719cb51e0800000000000000
+      internalID: -2207950089016744727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_83
+      rect:
+        serializedVersion: 2
+        x: 6993
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78ba454a7f173a30800000000000000
+      internalID: 4194856187927902331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_84
+      rect:
+        serializedVersion: 2
+        x: 7023
+        y: 0
+        width: 860
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bb4c053a137b990800000000000000
+      internalID: -7370367687664026806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_85
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 401
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb9093035a237a40800000000000000
+      internalID: 5364678117158853618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_86
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 5
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad630944dcac2ea50800000000000000
+      internalID: 6549019791117530842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_87
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 368
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84e1f5c9f065e3a0800000000000000
+      internalID: -6636791849976470390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_88
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 0
+        width: 444
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85028858e12e237d0800000000000000
+      internalID: -2940038986002325416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_89
+      rect:
+        serializedVersion: 2
+        x: 5266
+        y: 0
+        width: 276
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed85ecf4e4559610800000000000000
+      internalID: 1627300182836481515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voronoi_svg_export2_90
+      rect:
+        serializedVersion: 2
+        x: 7017
+        y: 20
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a89b9226cf29f20800000000000000
+      internalID: 3428079764919388706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

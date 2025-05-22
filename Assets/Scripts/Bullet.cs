@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour, IDamageSource, ICollisionListener
 
     public void Start()
     {
+        collisionHandler = GetComponent<ICollisionHandler>();
+
         if (collisionHandler != null) 
         {
             collisionHandler.ConnectCollisionListener(this);

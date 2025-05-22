@@ -38,11 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3499173067
+    locked: 0
+  - name: PlacedCells
+    uniqueID: 3666029753
+    locked: 0
   - name: Vaine
     uniqueID: 3857147145
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: LivingOrganisms
+    uniqueID: 1148370575
+    locked: 0
+  - name: Bullets
+    uniqueID: 1918590037
+    locked: 0
+  - name: UI
+    uniqueID: 2469628607
     locked: 0
   m_RenderingLayers:
   - Default

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9072286116213252614
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u0421apillariesInside"
+  m_Shader: {fileID: -6465566751694194690, guid: 8d58abab159e9f347874d99745a20b9c, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 8d58abab159e9f347874d99745a20b9c, type: 3}
+  m_ModifiedSerializedProperties: 2
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: _XSpeed
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 9679483c2c1268147a92477605cdf8d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClipThreshold: 0.72
+    - _CenterY: 0.5
+    - _ClampY: -0.3
+    - _QueueControl: 0
+    - _Radiuse: 3.38
+    - _XSpeed: 0.08
+    - _YSpeed: 0
+    - _power: 3.15
+    - _test: 1
+    - _testValue: -0.27
+    - _testneg: 3
+    - _testx: 1
+    - _testy: 1.77
+    - _width: 1.46
+    - _xstength: 1
+    - _ystength: 1
+    m_Colors:
+    - _Center: {r: 1.56, g: 1.46, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 25.57, g: -0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

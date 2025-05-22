@@ -7,6 +7,7 @@ public class DamageHandler : MonoBehaviour, ICollisionListener
 
     public void Start()
     {
+        collisionHandler = GetComponent<CollisionHandler>();
         if(collisionHandler != null)
         {
             collisionHandler.ConnectCollisionListener(this);
