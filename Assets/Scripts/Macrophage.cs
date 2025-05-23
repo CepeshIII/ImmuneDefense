@@ -10,7 +10,7 @@ public class Macrophage : MonoBehaviour, ICollisionListener
     private IRotatable rotateLogic;
 
 
-    private void Start()
+    private void OnEnable()
     {
         if(zone != null)
         {
@@ -24,6 +24,12 @@ public class Macrophage : MonoBehaviour, ICollisionListener
     {
         if(target != null)
         {
+            if (!target.gameObject.activeSelf)
+            {
+                target = null;
+                return;
+            } 
+                
             var directionToTarget = target.position - transform.position;
             rotateLogic.LookRotation(directionToTarget);
             attackLogic.Attack(directionToTarget);
@@ -49,7 +55,7 @@ public class Macrophage : MonoBehaviour, ICollisionListener
             target = null;
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         zone.DisconnectCollisionListener(this);
     }

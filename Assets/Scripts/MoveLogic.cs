@@ -6,6 +6,11 @@ public class MoveLogic : MonoBehaviour, IMovable
 
     public void MoveToDirection(Vector3 direction)
     {
-        transform.position += direction * speed * Time.deltaTime;
+        transform.position += direction.normalized * speed * Time.deltaTime;
+    }
+
+    public void AddMove(Vector3 direction, float speed)
+    {
+        transform.position += direction.normalized * speed * Time.deltaTime;
     }
 }

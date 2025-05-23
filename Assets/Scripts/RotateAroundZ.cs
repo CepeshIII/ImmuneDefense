@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class RotateAroundZ : MonoBehaviour, IRotatable
@@ -15,6 +16,8 @@ public class RotateAroundZ : MonoBehaviour, IRotatable
 
     private Vector3 targetDirection;
 
+    public event EventHandler<IRotatable.OnTargetChangeArgs> OnTargetChange;
+
     public Vector3 Forward { 
         get {
             switch (forwardDirection)
@@ -31,6 +34,8 @@ public class RotateAroundZ : MonoBehaviour, IRotatable
             }
         }
     }
+
+
 
     public void LookRotation(Vector3 direction)
     {
@@ -55,7 +60,12 @@ public class RotateAroundZ : MonoBehaviour, IRotatable
         }
 
         transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, rotationSpeed * Time.deltaTime);
+        OnTargetChange?.Invoke(this, new IRotatable.OnTargetChangeArgs
+        {
+            targetDirection = targetDirection,
+        });
     }
+
 
     public float GetAngleToTarget()
     {

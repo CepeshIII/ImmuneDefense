@@ -19,15 +19,15 @@ public class CollisionHandler : MonoBehaviour, ICollisionHandler
     public void ConnectCollisionListener(ICollisionListener collisionListener)
     {
         onCollisionEnter += collisionListener.CollisionHandler_OnCollisionEnter;
-        onCollisionExit += collisionListener.CollisionHandler_OnCollisionExit;
         onCollisionStay += collisionListener.CollisionHandler_OnCollisionStay;
+        onCollisionExit += collisionListener.CollisionHandler_OnCollisionExit;
     }
 
     public void DisconnectCollisionListener(ICollisionListener collisionListener)
     {
         onCollisionEnter -= collisionListener.CollisionHandler_OnCollisionEnter;
-        onCollisionExit -= collisionListener.CollisionHandler_OnCollisionExit;
         onCollisionStay -= collisionListener.CollisionHandler_OnCollisionStay;
+        onCollisionExit -= collisionListener.CollisionHandler_OnCollisionExit;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

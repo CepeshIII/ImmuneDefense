@@ -4,6 +4,9 @@ public class Bullet : MonoBehaviour, IDamageSource, ICollisionListener
 {
     [SerializeField] private float damage;
     [SerializeField] private ICollisionHandler collisionHandler;
+    [SerializeField] private float selfDestroyTimer = 5f;
+
+
 
     public void Start()
     {
@@ -15,9 +18,18 @@ public class Bullet : MonoBehaviour, IDamageSource, ICollisionListener
         }
     }
 
+    public void Update()
+    {
+        selfDestroyTimer -= Time.deltaTime;
+        if(selfDestroyTimer < 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     public void CollisionHandler_OnCollisionEnter(object obj, CollisionHandlerArgs args)
     {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 
     public void CollisionHandler_OnCollisionExit(object obj, CollisionHandlerArgs args)
