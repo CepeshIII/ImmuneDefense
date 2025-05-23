@@ -6,8 +6,6 @@ public class Bullet : MonoBehaviour, IDamageSource, ICollisionListener
     [SerializeField] private ICollisionHandler collisionHandler;
     [SerializeField] private float selfDestroyTimer = 5f;
 
-
-
     public void Start()
     {
         collisionHandler = GetComponent<ICollisionHandler>();
@@ -30,6 +28,10 @@ public class Bullet : MonoBehaviour, IDamageSource, ICollisionListener
     public void CollisionHandler_OnCollisionEnter(object obj, CollisionHandlerArgs args)
     {
         Destroy(gameObject);
+        if(args.other.TryGetComponent<IDamageHandler>(out var damageHandler))
+        {
+            damageHandler.ApplyDamage(damage);
+        }
     }
 
     public void CollisionHandler_OnCollisionExit(object obj, CollisionHandlerArgs args)

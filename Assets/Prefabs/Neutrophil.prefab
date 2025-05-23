@@ -181,8 +181,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6035331538975545494}
   - component: {fileID: 6304968249470377005}
-  - component: {fileID: 3381388631886092104}
   - component: {fileID: 828100441369081105}
+  - component: {fileID: 3766904539330734935}
   m_Layer: 0
   m_Name: Neutrophil
   m_TagString: Untagged
@@ -223,20 +223,6 @@ MonoBehaviour:
   zone: {fileID: 3459707340677960869}
   targetPosition: {x: 0, y: 0, z: 0}
   target: {fileID: 0}
---- !u!114 &3381388631886092104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6396845432923563411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccee6be1ac9827748859d1f55eecebd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forwardDirection: 3
-  rotationSpeed: 10
 --- !u!114 &828100441369081105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,10 +235,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227090f898a88dc4597e73c6daeb8ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 2873495092880522905, guid: 4eb7e0b501369a3408a9717200889880, type: 3}
+  weapon: {fileID: 2873495092880522905, guid: c9f9f7aa9a4749d48bb89709de4afc88, type: 3}
   attackThreshold: 5
   bulletForce: 100
   startReloadingDelay: 1
+--- !u!114 &3766904539330734935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6396845432923563411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d60a7923882cf646ad97e262237f651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4752843459453409470
 PrefabInstance:
   m_ObjectHideFlags: 0

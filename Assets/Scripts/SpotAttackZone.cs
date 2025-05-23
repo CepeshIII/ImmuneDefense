@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public class SpotAttackZone : MonoBehaviour, ICollisionListener, IContinuesDamageSource
+public class SpotAttackZone : MonoBehaviour, ICollisionListener, IDamageSource
 {
-    [SerializeField] private float damagePerFrame = 0.01f;
+    [SerializeField] private float maxDamagePerFrame = 0.1f;
     [SerializeField] private float maxSpeedToCenter = 1f;
-    [SerializeField] private float radius = 1f;
+    [SerializeField] private float radius = 0.5f;
+    [SerializeField] private Animator animator;
+    [SerializeField] private bool isReady = true;
 
     private ICollisionHandler collisionHandler;
 
@@ -13,6 +15,17 @@ public class SpotAttackZone : MonoBehaviour, ICollisionListener, IContinuesDamag
         collisionHandler = GetComponent<ICollisionHandler>();
         if (collisionHandler != null)
             collisionHandler.ConnectCollisionListener(this);
+
+        animator = GetComponent<Animator>();
+    }
+
+    public void StartAttack()
+    {
+        if (isReady)
+        {
+            animator.SetTrigger("Attack");
+            isReady = false;
+        }
     }
 
     public void CollisionHandler_OnCollisionEnter(object obj, CollisionHandlerArgs args)
@@ -26,13 +39,24 @@ public class SpotAttackZone : MonoBehaviour, ICollisionListener, IContinuesDamag
     public void CollisionHandler_OnCollisionStay(object obj, CollisionHandlerArgs args)
     {
         var directionToCenter = transform.position - args.other.transform.position;
-        var speed = Mathf.Lerp(maxSpeedToCenter, 0, directionToCenter.magnitude / radius);
-        args.other.GetComponent<IMovable>().AddMove(directionToCenter, speed);
+        var interpolationFactor = directionToCenter.magnitude / (radius * transform.lossyScale.x);
+
+        if (args.other.TryGetComponent<IDamageHandler>(out var damageHandler))
+        {
+            var damage = Mathf.Lerp(maxDamagePerFrame, 0, interpolationFactor);
+            damageHandler.ApplyDamage(damage);
+        };
+
+        if (args.other.TryGetComponent<IMovable>(out var moveLogic))
+        {
+            var speed = Mathf.Lerp(maxSpeedToCenter, 0, interpolationFactor);
+            moveLogic.AddMove(directionToCenter, speed);
+        };
     }
 
     public float GetDamage()
     {
-        return damagePerFrame;
+        return maxDamagePerFrame;
     }
 
     private void OnDestroy()
