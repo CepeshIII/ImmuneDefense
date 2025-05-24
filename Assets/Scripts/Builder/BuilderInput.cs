@@ -8,12 +8,12 @@ public class BuilderInput : MonoBehaviour
 
     private void Awake()
     {
-        gameInput = new GameInput();
     }
 
 
     private void OnEnable()
     {
+        gameInput = new GameInput();
         gameInput.Enable();
     }
 

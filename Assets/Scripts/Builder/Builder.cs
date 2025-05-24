@@ -36,12 +36,18 @@ public class Builder : MonoBehaviour
     {
         if (cellForPlaceData == null) return;
 
-        OnBuildCell.Invoke(this, new OnBuildCellArgs 
+        if(GameManager.Instance.GetGameStats().countOfAntibody >= cellForPlaceData.price) 
         { 
-            cellsData = cellForPlaceData, 
-            gridPosition = gridPosition, 
-            worldPosition = worldPosition
-        });
+            OnBuildCell.Invoke(this, new OnBuildCellArgs 
+            { 
+                cellsData = cellForPlaceData, 
+                gridPosition = gridPosition, 
+                worldPosition = worldPosition
+            });
+
+            GameManager.Instance.TriggerOnCellSet(cellForPlaceData.price);
+        }
+
     }
 
     public void ClickOnBuilder(Vector3 worldMousePosition)

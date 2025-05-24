@@ -16,9 +16,11 @@ public class Macrophage : MonoBehaviour, ICollisionListener
         {
             zone.ConnectCollisionListener(this);
         }
+
         rotateLogic = GetComponent<IRotatable>();
         attackLogic = GetComponentInChildren<IAttackable>();
     }
+
 
     public void Update()
     {

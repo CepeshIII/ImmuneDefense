@@ -9,4 +9,5 @@ public class CellsData: ScriptableObject
     public Tile tile;
     public GameObject prefab;
     public Sprite menuSprite;
+    public int price;
 }

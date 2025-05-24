@@ -5,9 +5,9 @@ public class EnemyWavesManager : MonoBehaviour
 {
     [SerializeField] private List<SpawnPoint> spawnPoints;
     [SerializeField] private float maxWaveTimer = 5f;
-    [SerializeField] float waveTimer = 0;
-    [SerializeField] int countEnemyInWave = 3;
-    [SerializeField] bool spawnOnAwake = false;
+    [SerializeField] private float waveTimer = 0;
+    [SerializeField] private int countEnemyInWave = 3;
+    [SerializeField] private bool spawnOnAwake = false;
 
     private void Start()
     {
@@ -15,18 +15,25 @@ public class EnemyWavesManager : MonoBehaviour
         {
             OnSpawnTimerEnd();
         }
+
     }
 
-    // Update is called once per frame
+
     private void Update()
     {
-        waveTimer -= Time.deltaTime;
-
-        if(waveTimer <= 0)
+        var stats = GameManager.Instance.GetGameStats();
+        if (stats.maxWaveCount > stats.wavesPassed)
         {
-            OnSpawnTimerEnd();
+            waveTimer -= Time.deltaTime;
+    
+            if(waveTimer <= 0)
+            {
+                GameManager.Instance.TriggerOnWaveStart();
+                OnSpawnTimerEnd();
+            }
         }
     }
+
 
     private void OnSpawnTimerEnd()
     {
@@ -37,6 +44,7 @@ public class EnemyWavesManager : MonoBehaviour
         }
         waveTimer = maxWaveTimer;
     }
+
 
     private SpawnPoint GetRandomSpawnPoints()
     {

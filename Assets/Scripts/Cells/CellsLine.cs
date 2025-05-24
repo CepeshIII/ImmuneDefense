@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class CellsLine : MonoBehaviour
 {
     [SerializeField] private CellsData data;
-    [SerializeField] private TextMeshProUGUI textMesh;
+    [SerializeField] private TextMeshProUGUI nameMesh;
+    [SerializeField] private TextMeshProUGUI priceMesh;
     [SerializeField] private Image image;
 
     private Button button;
@@ -34,7 +35,8 @@ public class CellsLine : MonoBehaviour
     public void UpdateLine()
     {
         image.sprite = data.menuSprite;
-        textMesh.text = data.name;
+        nameMesh.text = data.name;
+        priceMesh.text = $"Price: {data.price}";
     }
 
 

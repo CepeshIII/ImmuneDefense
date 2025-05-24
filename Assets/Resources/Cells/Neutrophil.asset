@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tile: {fileID: 11400000, guid: 3ce4cf82828b41440a3d3db32a4ba4ca, type: 2}
   prefab: {fileID: 6396845432923563411, guid: 2eab1bcac2cd3d5438775335d753466c, type: 3}
-  menuSprite: {fileID: -1710558358980192115, guid: 3c7274e540c4a664cab1c7d2acc0fd1c, type: 3}
+  menuSprite: {fileID: 1153954527914970064, guid: 766d08eedd283b14383ad616fc8d6ece, type: 3}
+  price: 100
