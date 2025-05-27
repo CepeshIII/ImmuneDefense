@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99e32ae2e923ad4ab2eebd8bdb5406d, type: 3}
+  m_Name: Scene3
+  m_EditorClassIdentifier: 
+  enemyWaves:
+  - enemiesForSpawn:
+    - numberOfEnemy: 3
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+    - numberOfEnemy: 3
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+  - enemiesForSpawn:
+    - numberOfEnemy: 5
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+    - numberOfEnemy: 2
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+  - enemiesForSpawn:
+    - numberOfEnemy: 3
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+    - numberOfEnemy: 4
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+  - enemiesForSpawn:
+    - numberOfEnemy: 5
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+    - numberOfEnemy: 5
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+  - enemiesForSpawn:
+    - numberOfEnemy: 7
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+    - numberOfEnemy: 6
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+  - enemiesForSpawn:
+    - numberOfEnemy: 6
+      enemyPrefab: {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
+    - numberOfEnemy: 8
+      enemyPrefab: {fileID: 1552933517060053265, guid: 54006500a04c4084386ffb9e4f431e4a, type: 3}
+  startAntibodyNumber: 500

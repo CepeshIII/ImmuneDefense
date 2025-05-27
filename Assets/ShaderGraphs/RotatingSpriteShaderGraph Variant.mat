@@ -25,15 +25,23 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2ebec19ee24e160498b6d5c71809d46f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 62d41d4bd5dd73745b4ae1debadcd4cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondText:
+        m_Texture: {fileID: 2800000, guid: c7ec8a7eee0f1dd44b0236e993be2135, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClipThreshold: 0.12
+    - _AlphaClipThreshold: 0.5
+    - _AngleSpeed: 0.5
     - _QueueControl: 0
-    - _angle: 4.66
+    - _RadiuseFactor: 1.5
+    - _Scale: 0.96
+    - _angle: 19.17
     m_Colors:
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

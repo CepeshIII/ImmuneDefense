@@ -15,12 +15,17 @@ public class BuilderInput : MonoBehaviour
     {
         gameInput = new GameInput();
         gameInput.Enable();
+        gameInput.BuildingMode.MouseClick.performed += _ => MouseClick();
+        gameInput.BuildingMode.TouchPress.performed += _ => TouchPress();
     }
 
 
-    void Start()
+    private void TouchPress()
     {
-        gameInput.BuildingMode.MouseClick.performed += _ => MouseClick();
+        var screenTouchPosition = gameInput.BuildingMode.TouchPosition.ReadValue<Vector2>();
+        var worldMousePosition = Camera.main.ScreenToWorldPoint(screenTouchPosition);
+
+        Builder.Instance.ClickOnBuilder(worldMousePosition);
     }
 
 

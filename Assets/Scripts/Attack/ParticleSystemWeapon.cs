@@ -7,6 +7,7 @@ public class ParticleSystemWeapon : MonoBehaviour, IDamageSource
     [SerializeField] private bool isReady;
     [SerializeField] private float timeForReloading = 1f;
     [SerializeField] private float damage = 1f;
+    [SerializeField] private bool withChangingSpeed = false;
 
     public bool IsReady => isReady;
 
@@ -38,6 +39,12 @@ public class ParticleSystemWeapon : MonoBehaviour, IDamageSource
         var angle = Vector3.SignedAngle(Vector3.right, attackDirection, -Vector3.forward);
         //var shapeModule = m_ParticleSystem.shape;
         transform.rotation = Quaternion.Euler(new Vector3(angle, 90f, 90f));
+        if (withChangingSpeed)
+        {
+            var mainModule = m_ParticleSystem.main;
+            mainModule.startSpeed = attackDirection.magnitude;
+        }
+
 
         m_ParticleSystem.Play();
         isReady = false;

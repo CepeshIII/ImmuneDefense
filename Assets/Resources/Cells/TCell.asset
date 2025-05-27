@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9b374876699fc4cad170238fece822, type: 3}
+  m_Name: TCell
+  m_EditorClassIdentifier: 
+  tile: {fileID: 11400000, guid: 3ce4cf82828b41440a3d3db32a4ba4ca, type: 2}
+  prefab: {fileID: 6396845432923563411, guid: 52882d914c718a64f95a02e265c05581, type: 3}
+  menuSprite: {fileID: 9203799935220852393, guid: 3c7274e540c4a664cab1c7d2acc0fd1c, type: 3}
+  price: 100

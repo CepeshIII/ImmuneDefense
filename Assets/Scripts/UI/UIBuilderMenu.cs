@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class UIBuilderMenu : MonoBehaviour
 {
-    [SerializeField] GameObject menuLinePrefab;
+    [SerializeField] GameObject menuCardPrefab;
+    [SerializeField] GameObject menuCardList;
+
 
     private void Awake()
     {
@@ -13,12 +15,12 @@ public class UIBuilderMenu : MonoBehaviour
     {
         var cellsData = CellsLoader.LoadCellsData();
 
-        if (cellsData != null) 
+        if (cellsData != null && menuCardList != null) 
         {
             foreach (var cell in cellsData) 
             {
-                var menuLine = Instantiate(menuLinePrefab, transform);
-                if(menuLine.TryGetComponent<CellsLine>(out var menuLineLogic))
+                var menuLine = Instantiate(menuCardPrefab, menuCardList.transform);
+                if(menuLine.TryGetComponent<CellCard>(out var menuLineLogic))
                 {
                     menuLineLogic.SetCellData(cell);
                 }
@@ -28,11 +30,10 @@ public class UIBuilderMenu : MonoBehaviour
 
     private void DeleteChildren()
     {
-        for (int i = 0; i < transform.childCount; i++) 
+        if(menuCardList != null)
+        for (int i = 0; i < menuCardList.transform.childCount; i++) 
         {
-            Destroy(transform.GetChild(i).gameObject);
+            Destroy(menuCardList.transform.GetChild(i).gameObject);
         }
-
-
     }
 }

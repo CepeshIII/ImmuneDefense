@@ -44,7 +44,7 @@ Camera:
   m_GameObject: {fileID: 6132052427728110843}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -109,7 +109,7 @@ MonoBehaviour:
   cam: {fileID: 6132052427728110840}
   dragEnabled: 1
   mouseButton: 0
-  dragSpeed: -0.08
+  dragSpeed: -0.04
   ztTarget: {fileID: 0}
   DCTranslate: 0
   DCZoom: 0
@@ -126,13 +126,13 @@ MonoBehaviour:
   zoomEnabled: 1
   linkedZoomDrag: 1
   maxZoom: 10
-  minZoom: 0.1
-  zoomStepSize: 0.5
+  minZoom: 2
+  zoomStepSize: 0.25
   zoomToMouse: 0
   followTarget: {fileID: 0}
   lerpSpeed: 0.15
   offset: {x: 0, y: 0, z: -10}
-  clampCamera: 0
+  clampCamera: 1
   bounds: {fileID: 0}
   dollyRail: {fileID: 0}
   snapTarget: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
+  m_RenderShadows: 0
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0

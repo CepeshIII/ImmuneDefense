@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,53 +7,83 @@ public class SpawnPoint : MonoBehaviour
     [SerializeField] private List<GameObject> prefabs;
     [SerializeField] private IPathSource pathForMove;
     [SerializeField] private Transform parent;
+    [SerializeField] private List<GameObject> spawnedEnemy;
 
-    private float spawnDelay = 0;
     private float spawnTimer = 0;
 
-    private int enemyForSpawnCount = 0;
-
+    private EnemyWave currentEnemyWave;
     private IPathSource pathSource;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+
+    private void Start()
     {
         pathSource = GetComponent<IPathSource>();
-        PathMoverInstantiate();
     }
 
-    public void Update()
-    {
-        if (enemyForSpawnCount <= 0) return;
 
-        spawnTimer -= Time.deltaTime;
-        if (spawnTimer <= 0)
+    private void Update()
+    {
+        if(spawnedEnemy != null && spawnedEnemy.Count != 0) 
         {
-            enemyForSpawnCount--;
-            PathMoverInstantiate();
-            spawnTimer = spawnDelay;
+            var isEveryoneKilled = true;
+
+            foreach (var e in spawnedEnemy) 
+            { 
+                if(e != null)
+                {
+                    isEveryoneKilled = false;
+                }
+            }
+
+            if (isEveryoneKilled) 
+            {
+                spawnedEnemy.Clear();
+                EnemyWavesManager.Instance.TriggerOnWaveEnd();
+            }
         }
     }
 
-    public void Spawn(int count, float spawnDelay)
-    {
-        this.spawnDelay = spawnDelay;
-        spawnTimer = spawnDelay;
 
-        enemyForSpawnCount = count;
+    private IEnumerator SpawnWave()
+    {
+        foreach (var enemyForSpawnData in currentEnemyWave.enemiesForSpawn)
+        {
+            for (int i = 0; i < enemyForSpawnData.numberOfEnemy; i++)
+            {
+                var enemiesPrefab = enemyForSpawnData.enemyPrefab;
+                PathMoverInstantiate(enemiesPrefab);
+                yield return new WaitForSeconds(spawnTimer);
+            }
+        }
     }
 
-    private void PathMoverInstantiate()
+
+    public void SetWaveData(EnemyWave enemyWave, float spawnDelay)
     {
-        var prefab = GetRandomPrefab();
+        StopAllCoroutines();
+        spawnTimer = spawnDelay;
+        currentEnemyWave = enemyWave;
+        spawnedEnemy = new();
+
+        StartCoroutine(SpawnWave());
+    }
+
+
+    private void PathMoverInstantiate(GameObject prefab)
+    {
+        //var prefab = GetRandomPrefab();
         if (prefab == null) return;
 
         var pathMover = Instantiate(prefab, transform.position, Quaternion.identity, parent);
-        if(pathMover.TryGetComponent<MoveByPath>(out var moveByPath))
+        spawnedEnemy.Add(pathMover);
+
+        if (pathMover.TryGetComponent<MoveByPath>(out var moveByPath))
         {
             moveByPath.SetPath(pathSource.GetPath());
         }
     }
+
 
     private GameObject GetRandomPrefab()
     {
@@ -66,6 +97,7 @@ public class SpawnPoint : MonoBehaviour
             return null;
         }
     }
+
 
     private void OnDrawGizmos()
     {
