@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -12,10 +13,22 @@ public class MusicPlayer : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
             musicSource.Play();
+
+            if (!PlayerPrefs.HasKey("musicVolume")) 
+            {
+                PlayerPrefs.SetFloat("musicVolume", 0.8f);
+            };
+            musicSource.volume = PlayerPrefs.GetFloat("musicVolume");
+
         }
         else if(Instance != this)
         {
             Destroy(this);
         }
+    }
+
+    public void UpdateVolume(float volume)
+    {
+        musicSource.volume = volume;
     }
 }

@@ -5,34 +5,52 @@ using UnityEngine.UI;
 public class SettingsMenu : MonoBehaviour
 {
     [SerializeField] private Scrollbar scrollSpeedSetting;
-    private float minScrollSpeed = -0.08f;
-    private float maxScrollSpeed = -0.005f ;
+    [SerializeField] private Scrollbar volumeSetting;
+
+    private float minScrollSpeed = -0.005f;
+    private float maxScrollSpeed = -0.08f;
 
 
     private void OnEnable()
     {
-        var value = PlayerPrefs.GetFloat("scrollSpeed");
-        if (Camera.main.TryGetComponent<DragCamera2D>(out var dragCamera2D))
-        {
-            dragCamera2D.dragSpeed = value;
-        }
-        scrollSpeedSetting.value = Mathf.InverseLerp(minScrollSpeed, maxScrollSpeed, value);
+        var scrollSpeedValue = PlayerPrefs.GetFloat("scrollSpeed");
+        var musicVolume = PlayerPrefs.GetFloat("musicVolume");
 
+        UpdateDragSpeed(scrollSpeedValue);
+        UpdateMusicVolume(musicVolume);
+
+        scrollSpeedSetting.value = Mathf.InverseLerp(minScrollSpeed, maxScrollSpeed, scrollSpeedValue);
+        volumeSetting.value = musicVolume;
     }
 
     private void Awake()
     {
         gameObject.SetActive(false);
+
+        volumeSetting.onValueChanged.AddListener((float volume) => { UpdateMusicVolume(volume); });
     }
 
     public void UpdateScrollSpeed()
     {
         var newValue = Mathf.Lerp(minScrollSpeed, maxScrollSpeed, scrollSpeedSetting.value);
-        PlayerPrefs.SetFloat("scrollSpeed", newValue);
-        if(Camera.main.TryGetComponent<DragCamera2D>(out var dragCamera2D))
-        {
-            dragCamera2D.touchDragSpeed = newValue;
-        }
+        UpdateDragSpeed(newValue);
+    }
 
+    public void UpdateDragSpeed(float newValue)
+    {
+        if (Camera.main.TryGetComponent<DragCamera2D>(out var dragCamera2D))
+        {
+            dragCamera2D.dragSpeed = newValue;
+        }
+        PlayerPrefs.SetFloat("scrollSpeed", newValue);
+    }
+
+    public void UpdateMusicVolume(float volume)
+    {
+        if (MusicPlayer.Instance != null) 
+        {
+            MusicPlayer.Instance.UpdateVolume(volume);
+        }
+        PlayerPrefs.SetFloat("musicVolume", volume);
     }
 }

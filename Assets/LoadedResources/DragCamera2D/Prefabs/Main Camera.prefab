@@ -120,7 +120,7 @@ MonoBehaviour:
   edgeBoundary: 25
   edgeSpeed: 1
   keyboardInput: 1
-  inverseKeyboard: 1
+  inverseKeyboard: 0
   touchEnabled: 1
   touchDragSpeed: -0.03
   zoomEnabled: 1

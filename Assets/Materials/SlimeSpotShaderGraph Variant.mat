@@ -32,7 +32,7 @@ Material:
     m_Floats:
     - _Alpha_clip_Threshold: 0
     - _QueueControl: 0
-    - _t: 0.11
+    - _t: 0.04
     m_Colors:
     - _Color: {r: 0.9686275, g: 0.6392157, b: 0.18039191, a: 0.44313726}
     - _Tiling: {r: 1.37, g: 1.2, b: 0, a: 0}
