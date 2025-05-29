@@ -413,8 +413,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9062288226448440355, guid: fa469b3e7a17a8749bc070e481722e1d, type: 3}
+      propertyPath: maxSpeedToCenter
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062288226448440355, guid: fa469b3e7a17a8749bc070e481722e1d, type: 3}
       propertyPath: maxDamagePerFrame
-      value: 0.3
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

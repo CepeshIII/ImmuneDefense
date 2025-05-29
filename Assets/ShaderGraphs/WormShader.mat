@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1807789960397464953
+--- !u!114 &-7300916664739477165
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpriteShaderGraph Variant
-  m_Shader: {fileID: -6465566751694194690, guid: c3d89c7882b0f354997ddb5b0d5fff89, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: c3d89c7882b0f354997ddb5b0d5fff89, type: 3}
+  m_Name: WormShader
+  m_Shader: {fileID: -6465566751694194690, guid: 657e333f12db5ab46918c22848558110, type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -31,27 +31,33 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9fa88729b39048945af394b021985335, type: 3}
+        m_Texture: {fileID: 2800000, guid: ce9ed131f27ccbc41adfe720e848fe51, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MaskTex:
+    - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MormalMap:
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _QueueControl: 0
+    - _Amplitude: 0.1
+    - _ClampY: 0
+    - _Frequency: 14
+    - _Speed: 8
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

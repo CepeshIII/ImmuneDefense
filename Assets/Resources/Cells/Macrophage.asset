@@ -15,4 +15,4 @@ MonoBehaviour:
   tile: {fileID: 11400000, guid: 3ce4cf82828b41440a3d3db32a4ba4ca, type: 2}
   prefab: {fileID: 6396845432923563411, guid: 341a82f3b3dce6f46b354c68c3f81f26, type: 3}
   menuSprite: {fileID: 5499687225809635679, guid: 766d08eedd283b14383ad616fc8d6ece, type: 3}
-  price: 50
+  price: 80

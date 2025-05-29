@@ -13,4 +13,9 @@ public class MoveLogic : MonoBehaviour, IMovable
     {
         transform.position += direction.normalized * speed * Time.deltaTime;
     }
+
+    public void AddForce(Vector3 force)
+    {
+        throw new System.NotImplementedException();
+    }
 }

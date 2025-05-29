@@ -11,9 +11,9 @@ public class DragCamera2D : MonoBehaviour
      *  DONE: add dolly track smoothing
      *  DONE: add dolly track straightening
      *  DONE: Dolly track + gizmo colours
-     *  DONE: add non tracked constant speed dolly system(continuous movement based on time)
+     *  DONE: add non tracked constant moveForce dolly system(continuous movement based on time)
      *  WONTDO: [REPLACED BY FEATURE BELOW] add button to split dolly track evenly (between start and end) for time based dolly movement
-     *  DONE: button to adjust times on all waypoints so camera moves at a constant speed
+     *  DONE: button to adjust times on all waypoints so camera moves at a constant moveForce
      *  DONE: add per waypoint time (seconds on this segment)
      *  DONE: add scaler for time to next waypoint in scene viewe gui
      *  DONE: improve GUI elements (full custom editor inspector)

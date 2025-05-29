@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 7641346922419205722}
   - component: {fileID: 1831677293714479308}
   - component: {fileID: 5396224473822190509}
-  - component: {fileID: 4885399714926315478}
   - component: {fileID: 1443039472433260354}
   - component: {fileID: 8694161033339196691}
   - component: {fileID: 1368535641029866881}
   - component: {fileID: 4531967302030791314}
   - component: {fileID: 3025137519465266076}
+  - component: {fileID: 1446522971226481363}
   m_Layer: 8
   m_Name: Virus
   m_TagString: Untagged
@@ -49,14 +49,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552933517060053265}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.25
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -120,19 +120,6 @@ MonoBehaviour:
   path: []
   index: 0
   thresholdDistance: 0.1
---- !u!114 &4885399714926315478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552933517060053265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 110a79d23bcf38641a1f6f6d73a83d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
 --- !u!114 &1443039472433260354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4f622ae3a1b38849ac340f6f349c010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 60
 --- !u!114 &4531967302030791314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e941b363f7ce17945826915d75cd82b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reward: 40
+  reward: 15
 --- !u!114 &3025137519465266076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +191,22 @@ MonoBehaviour:
   spriteSource: 0
   spriteRenderer: {fileID: 3670945667007522766}
   sprite: {fileID: 3428258685976407377, guid: c7ec8a7eee0f1dd44b0236e993be2135, type: 3}
+--- !u!114 &1446522971226481363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552933517060053265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbf15501587c4f647881c7960ce14ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 0.5
+  rigidbody2D: {fileID: 7641346922419205722}
+  velocity: {x: 0, y: 0}
+  externalForce: {x: 0, y: 0}
 --- !u!1 &4045742973715790536
 GameObject:
   m_ObjectHideFlags: 0

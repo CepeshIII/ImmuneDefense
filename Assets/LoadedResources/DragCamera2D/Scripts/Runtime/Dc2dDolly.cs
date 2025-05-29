@@ -30,7 +30,7 @@ public class Dc2dDolly : MonoBehaviour
     public float totalTrackTime = 10f;
 
     [Header("Bezier & Smoothing")]
-    [Tooltip("Limit curves so camera stays at constant speed.")]
+    [Tooltip("Limit curves so camera stays at constant moveForce.")]
     public bool constantSpeed = true;
 
     [Header("GUI Options")]

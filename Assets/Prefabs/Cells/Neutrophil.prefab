@@ -261,13 +261,21 @@ PrefabInstance:
       propertyPath: damage
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 416966466823033920, guid: 96be9fde33cdd5144a86c59ef18dcdcd, type: 3}
+      propertyPath: timeForReloading
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 625109904640740093, guid: 96be9fde33cdd5144a86c59ef18dcdcd, type: 3}
       propertyPath: ShapeModule.angle
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 625109904640740093, guid: 96be9fde33cdd5144a86c59ef18dcdcd, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 625109904640740093, guid: 96be9fde33cdd5144a86c59ef18dcdcd, type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2350996370773068360, guid: 96be9fde33cdd5144a86c59ef18dcdcd, type: 3}
       propertyPath: m_LocalPosition.x
