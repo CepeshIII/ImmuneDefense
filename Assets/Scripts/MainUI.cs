@@ -53,7 +53,7 @@ public class MainUI : MonoBehaviour
     {
         if (countOfWaveTextMesh != null) 
         { 
-            countOfWaveTextMesh.text = $"waves {gameStats.enemyWaves.Count.ToString()}/{gameStats.wavesPassed.ToString()}";
+            countOfWaveTextMesh.text = $"waves {gameStats.wavesPassed.ToString()}/{gameStats.enemyWaves.Count.ToString()}";
         }
 
         if (countOfAntibodyTextMesh != null)

@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class MoveByPath : MonoBehaviour
 {
-    [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Vector3[] path;
     [SerializeField] private int index = 0;
 

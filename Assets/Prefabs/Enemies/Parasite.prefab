@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2224676660539401208}
   - component: {fileID: 4437328160553441486}
   - component: {fileID: 7549864193778246439}
-  - component: {fileID: 2667478787956578122}
+  - component: {fileID: 3108204864550785665}
   m_Layer: 8
   m_Name: Parasite
   m_TagString: Untagged
@@ -54,7 +54,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -117,7 +117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
   path: []
   index: 0
   thresholdDistance: 0.1
@@ -148,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4f622ae3a1b38849ac340f6f349c010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 350
 --- !u!114 &4531967302030791314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +229,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.31, y: 0.01}
   m_Size: {x: 0.6, y: 0.14}
   m_Direction: 1
---- !u!114 &2667478787956578122
+--- !u!114 &3108204864550785665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,13 +238,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552933517060053265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf15501587c4f647881c7960ce14ceb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e27705c9b82e354980c395c31c06edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 0.5
-  rigidbody2D: {fileID: 7641346922419205722}
-  velocity: {x: 0, y: 0}
-  externalForce: {x: 0, y: 0}
+  moveDirection: {x: 0, y: 0}
+  rigidbody2D: {fileID: 0}
+  moveSpeed: 1
 --- !u!1 &4045742973715790536
 GameObject:
   m_ObjectHideFlags: 0

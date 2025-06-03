@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1368535641029866881}
   - component: {fileID: 4531967302030791314}
   - component: {fileID: 2224676660539401208}
-  - component: {fileID: 7902001062867259608}
+  - component: {fileID: 3373276231861928681}
   m_Layer: 8
   m_Name: Bacteria
   m_TagString: Untagged
@@ -53,7 +53,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -116,7 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
   path: []
   index: 0
   thresholdDistance: 0.25
@@ -160,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4f622ae3a1b38849ac340f6f349c010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 150
 --- !u!114 &4531967302030791314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +190,7 @@ MonoBehaviour:
   spriteSource: 1
   spriteRenderer: {fileID: 3670945667007522766}
   sprite: {fileID: 0}
---- !u!114 &7902001062867259608
+--- !u!114 &3373276231861928681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,13 +199,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552933517060053265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf15501587c4f647881c7960ce14ceb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e27705c9b82e354980c395c31c06edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 0.5
+  moveDirection: {x: 0, y: 0}
   rigidbody2D: {fileID: 7641346922419205722}
-  velocity: {x: 0, y: 0}
-  externalForce: {x: 0, y: 0}
+  moveSpeed: 1.25
 --- !u!1 &4045742973715790536
 GameObject:
   m_ObjectHideFlags: 0

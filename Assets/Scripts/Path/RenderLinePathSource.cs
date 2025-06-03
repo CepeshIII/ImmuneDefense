@@ -6,7 +6,7 @@ public class RenderLinePathSource : MonoBehaviour, IPathSource
     [SerializeField] private Vector3[] path;
 
 
-    public void Start()
+    public void Awake()
     {
         if(lineRenderer != null)
         {

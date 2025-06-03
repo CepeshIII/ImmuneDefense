@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpotAttackZone : MonoBehaviour, ICollisionListener, IDamageSource
 {
     [SerializeField] private float maxDamagePerFrame = 0.1f;
-    [SerializeField] private float maxSpeedToCenter = 1f;
+    [SerializeField] private float maxForceToCenter = 40f;
     [SerializeField] private float radius = 0.5f;
     [SerializeField] private Animator animator;
     [SerializeField] private bool isReady = true;
@@ -49,7 +49,7 @@ public class SpotAttackZone : MonoBehaviour, ICollisionListener, IDamageSource
 
         if (args.other.TryGetComponent<IMovable>(out var moveLogic))
         {
-            var speed = Mathf.Lerp(maxSpeedToCenter, 0, interpolationFactor);
+            var speed = Mathf.Lerp(maxForceToCenter, 0, interpolationFactor);
             moveLogic.AddMove(directionToCenter, speed);
         };
     }

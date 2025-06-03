@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1368535641029866881}
   - component: {fileID: 4531967302030791314}
   - component: {fileID: 3025137519465266076}
-  - component: {fileID: 1446522971226481363}
+  - component: {fileID: 331148120078516220}
   m_Layer: 8
   m_Name: Virus
   m_TagString: Untagged
@@ -116,7 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
   path: []
   index: 0
   thresholdDistance: 0.1
@@ -191,7 +190,7 @@ MonoBehaviour:
   spriteSource: 0
   spriteRenderer: {fileID: 3670945667007522766}
   sprite: {fileID: 3428258685976407377, guid: c7ec8a7eee0f1dd44b0236e993be2135, type: 3}
---- !u!114 &1446522971226481363
+--- !u!114 &331148120078516220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,13 +199,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552933517060053265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf15501587c4f647881c7960ce14ceb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e27705c9b82e354980c395c31c06edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 0.5
-  rigidbody2D: {fileID: 7641346922419205722}
-  velocity: {x: 0, y: 0}
-  externalForce: {x: 0, y: 0}
+  moveDirection: {x: 0, y: 0}
+  rigidbody2D: {fileID: 0}
+  moveForce: 1.5
+  moveSpeed: 1.5
 --- !u!1 &4045742973715790536
 GameObject:
   m_ObjectHideFlags: 0

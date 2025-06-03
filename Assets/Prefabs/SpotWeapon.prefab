@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8654194280646230646}
   - component: {fileID: -9086942110002372964}
   - component: {fileID: 9062288226448440355}
+  - component: {fileID: 5025380883102648594}
   m_Layer: 9
   m_Name: SpotWeapon
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3704691989529469794}
@@ -177,11 +178,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd6547221d415f45bb77de5c9c3a3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDamagePerFrame: 2
-  maxSpeedToCenter: 2
+  maxDamagePerFrame: 0.8
+  maxForceToCenter: 40
   radius: 0.5
   animator: {fileID: 0}
   isReady: 1
+--- !u!114 &5025380883102648594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3778369796353609959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 414d2c80cae92eb4389b6e55f09cb2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlowMovingEffect:
+    timer: 1
+    isStackable: 1
+    slowFactor: 0.5
 --- !u!1 &8063635900387041170
 GameObject:
   m_ObjectHideFlags: 0
