@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: d13857a85fe18214a846e7aba6530de5
+guid: ce9ed131f27ccbc41adfe720e848fe51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8832167503239892954
-    second: pngwing.com_0
+      213: 1501133510963329140
+    second: Parasite_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -109,27 +109,110 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngwing.com_0
+      name: Parasite_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1600
         y: 0
-        width: 900
-        height: 900
+        width: 850
+        height: 948
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: adfcc53ac89229a70800000000000000
-      internalID: 8832167503239892954
+      spriteID: 478776199f815d410800000000000000
+      internalID: 1501133510963329140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parasite_1
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 948
+        width: 850
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641108828d37cd642a512fe40ca6aecd
+      internalID: -1276745204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parasite_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2694
+        width: 850
+        height: 1402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed4b97ba0f0ec43b6380e963ac58bc
+      internalID: -2104864265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parasite_3
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 1214
+        height: 4096
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 607, y: -2048}
+        - {x: 607, y: 2048}
+        - {x: -607, y: 2048}
+        - {x: -607, y: -2048}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c463376e89952084aaf07f0d4df980ec
+      internalID: 238015378
       vertices: []
       indices: 
       edges: []
@@ -138,7 +221,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69be9793decc4e24599d68859368bfbd
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +230,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Parasite_1: -1276745204
+      Parasite_2: -2104864265
+      Parasite_3: 238015378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
