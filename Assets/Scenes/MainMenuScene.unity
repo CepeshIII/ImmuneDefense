@@ -13326,6 +13326,8 @@ MonoBehaviour:
     id: 2
   - number: 3
     id: 3
+  - number: 4
+    id: 4
   sceneLinePrefab: {fileID: 3490401942363530973, guid: 381097b268b3c4044829c2d2260bf208, type: 3}
 --- !u!1 &1201252651
 GameObject:
