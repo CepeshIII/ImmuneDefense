@@ -14415,6 +14415,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917879058410274943, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037800134104487033, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1696901383044357770, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -14519,6 +14527,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -410.23053
       objectReference: {fileID: 0}
+    - target: {fileID: 3995104825336241083, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
+      propertyPath: openGameMenuButton
+      value: 
+      objectReference: {fileID: 1830867245}
     - target: {fileID: 4610716771920708880, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -14604,6 +14616,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
+--- !u!114 &1830867245 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6007079900502679034, guid: 591d10ddbba01c34b907a7402f0bddec, type: 3}
+  m_PrefabInstance: {fileID: 1830867244}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1856100004
 PrefabInstance:
   m_ObjectHideFlags: 0

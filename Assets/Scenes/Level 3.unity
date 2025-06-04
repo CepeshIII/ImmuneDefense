@@ -1114,6 +1114,7 @@ MonoBehaviour:
   - {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
   parent: {fileID: 479056419}
   spawnedEnemy: []
+  spawnRadius: 1
 --- !u!4 &513906952
 Transform:
   m_ObjectHideFlags: 0
@@ -1951,8 +1952,8 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4b0988bf7ee798d44a607cb58535d7f7, type: 2}
-  - {fileID: 2100000, guid: 1456cdbec09fc1a4ab7951d58f64bb8e, type: 2}
+  - {fileID: 2100000, guid: 5265f5c9098829240a68fdbbd51f4977, type: 2}
+  - {fileID: 2100000, guid: 882986b4e2284714586780d0ded51b81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2362,7 +2363,7 @@ LineRenderer:
     numCornerVertices: 90
     numCapVertices: 90
     alignment: 0
-    textureMode: 0
+    textureMode: 4
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
@@ -2554,6 +2555,7 @@ MonoBehaviour:
   - {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
   parent: {fileID: 479056419}
   spawnedEnemy: []
+  spawnRadius: 1
 --- !u!4 &1292515335
 Transform:
   m_ObjectHideFlags: 0
@@ -10214,8 +10216,8 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4b0988bf7ee798d44a607cb58535d7f7, type: 2}
-  - {fileID: 2100000, guid: 1456cdbec09fc1a4ab7951d58f64bb8e, type: 2}
+  - {fileID: 2100000, guid: 5265f5c9098829240a68fdbbd51f4977, type: 2}
+  - {fileID: 2100000, guid: 882986b4e2284714586780d0ded51b81, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10698,7 +10700,7 @@ LineRenderer:
     numCornerVertices: 90
     numCapVertices: 90
     alignment: 0
-    textureMode: 0
+    textureMode: 4
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
@@ -11305,6 +11307,18 @@ PrefabInstance:
       propertyPath: m_Positions.Array.size
       value: 327
       objectReference: {fileID: 0}
+    - target: {fileID: 344315496227091443, guid: f24f1df62d78e45449f5a9b2dcba2b38, type: 3}
+      propertyPath: m_Parameters.textureMode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 344315496227091443, guid: f24f1df62d78e45449f5a9b2dcba2b38, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5265f5c9098829240a68fdbbd51f4977, type: 2}
+    - target: {fileID: 344315496227091443, guid: f24f1df62d78e45449f5a9b2dcba2b38, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 882986b4e2284714586780d0ded51b81, type: 2}
     - target: {fileID: 344315496227091443, guid: f24f1df62d78e45449f5a9b2dcba2b38, type: 3}
       propertyPath: m_Positions.Array.data[0].x
       value: -19.28
