@@ -50,6 +50,7 @@ MonoBehaviour:
   - {fileID: 1552933517060053265, guid: 16657ebfb8eea09408f2cf26de846b45, type: 3}
   parent: {fileID: 0}
   spawnedEnemy: []
+  spawnRadius: 0.5
 --- !u!114 &4772242393674389279
 MonoBehaviour:
   m_ObjectHideFlags: 0

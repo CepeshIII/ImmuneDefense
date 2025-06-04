@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4421868123155762904}
   - component: {fileID: 7641346922419205722}
   - component: {fileID: 1831677293714479308}
-  - component: {fileID: 5396224473822190509}
+  - component: {fileID: 8998187264678446051}
   - component: {fileID: 8694161033339196691}
   - component: {fileID: 1368535641029866881}
   - component: {fileID: 4531967302030791314}
@@ -105,7 +105,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.8, y: -0.01}
   m_Radius: 0.2
---- !u!114 &5396224473822190509
+--- !u!114 &8998187264678446051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,12 +114,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552933517060053265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cecc3743116c86643b8ffdf713f19155, type: 3}
+  m_Script: {fileID: 11500000, guid: f5a318ced949bc1498eb9cb5af82bb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
   index: 0
-  thresholdDistance: 0.1
+  thresholdDistance: 0.25
+  pathRadius: 0.4
 --- !u!114 &8694161033339196691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e941b363f7ce17945826915d75cd82b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reward: 50
+  reward: 70
 --- !u!114 &2224676660539401208
 MonoBehaviour:
   m_ObjectHideFlags: 0

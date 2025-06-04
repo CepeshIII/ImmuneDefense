@@ -8,6 +8,7 @@ public class SpawnPoint : MonoBehaviour
     [SerializeField] private IPathSource pathForMove;
     [SerializeField] private Transform parent;
     [SerializeField] private List<GameObject> spawnedEnemy;
+    [SerializeField] private float spawnRadius = 1f;
 
     private float spawnTimer = 0;
 
@@ -75,15 +76,23 @@ public class SpawnPoint : MonoBehaviour
         //var prefab = GetRandomPrefab();
         if (prefab == null) return;
 
-        var pathMover = Instantiate(prefab, transform.position, Quaternion.identity, parent);
+        var pathMover = Instantiate(prefab, GetSpawnPosition(), Quaternion.identity, parent);
         spawnedEnemy.Add(pathMover);
 
-        if (pathMover.TryGetComponent<MoveByPath>(out var moveByPath))
+        if (pathMover.TryGetComponent<IMoveByPath>(out var moveByPath))
         {
             moveByPath.SetPath(pathSource.GetPath());
         }
     }
 
+    private Vector3 GetSpawnPosition() 
+    {
+        var distance = Random.value * spawnRadius;
+        var angle = Random.Range(0f, 360f) * (Mathf.PI / 180f);
+        var direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+        Vector3 offset = direction * distance;
+        return offset + transform.position;
+    }
 
     private GameObject GetRandomPrefab()
     {
@@ -102,6 +111,6 @@ public class SpawnPoint : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(0, 0, 0, 0.5f);
-        Gizmos.DrawSphere(transform.position, 1f);
+        Gizmos.DrawSphere(transform.position, spawnRadius);
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class MoveByPath : MonoBehaviour
+public class MoveByPath : MonoBehaviour, IMoveByPath
 {
     [SerializeField] private Vector3[] path;
     [SerializeField] private int index = 0;
